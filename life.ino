@@ -50,7 +50,7 @@ void step() {
       pos = ypos + x;
       sum = get_sum_mur(x, y);
       
-      nsurf[pos] = (sum == 3 or surf[pos] && sum == 2) nsurf[pos] = 1;
+      nsurf[pos] = (sum == 3 or surf[pos] && sum == 2);
     }
   }
   
